@@ -1,12 +1,10 @@
+var taskInput = document.getElementById("taskInput");
+var taskList = document.getElementById("taskList");
+var task = taskInput.value
+
 function addTask() {
-  var taskInput = document.getElementById("taskInput");
-  var taskList = document.getElementById("taskList");
-  var task = taskInput.value;
-
   if (task !== "") {
-    var taskItem = document.createElement("div");
-    taskItem.classList.add("task");
-
+    // code for radio buttons
     var taskRadio = document.createElement("input");
     taskRadio.setAttribute("type", "checkbox");
     taskRadio.onchange = function() {
@@ -19,15 +17,17 @@ function addTask() {
         }
     };
 
+    // creating label after radio button
     var taskLabel = document.createElement("label");
     taskLabel.classList.add("task-label");
     taskLabel.innerHTML = task;
 
+    // creating x for deleting a task
     var taskRemove = document.createElement("span");
     taskRemove.classList.add("task-remove");
     taskRemove.innerHTML = "x";
     taskRemove.onclick = function() {
-      taskList.removeChild(taskItem);
+    taskList.removeChild(taskItem);
     };
 
     taskItem.appendChild(taskRadio);
