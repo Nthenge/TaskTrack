@@ -2,9 +2,6 @@
 
 Some Description
 
-<<<<<<< HEAD
-## Watch tutorial on youtube
-=======
 ## Subheader
 Watch tutorial on youtube
 
@@ -12,4 +9,3 @@ Watch tutorial on youtube
 
 I am learning Git
 
->>>>>>> feature-readme-instructions
