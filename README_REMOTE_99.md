@@ -3,7 +3,7 @@
 Some Description
 
 ## Subheader
-Watch tutorial on YouTube
+Watch tutorial on youtube
 
 ## Sub-Sub header
 
